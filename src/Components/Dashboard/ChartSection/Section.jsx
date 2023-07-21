@@ -1,7 +1,7 @@
 import { Box, Flex, GridItem, Heading, SimpleGrid, Text } from '@chakra-ui/react'
 import React from 'react'
 import Chart from './Chart'
-import LowerPart from './LowerPart'
+import Achievements from './Achievements'
 
 const Section = () => {
   return (
@@ -42,7 +42,7 @@ const Section = () => {
                 </Flex>
             </Flex>
             <Chart />
-            <LowerPart />
+            <Achievements />
         </Box>
     </Box>
   )

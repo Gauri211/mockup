@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ChakraProvider, Flex, Slider, SliderTrack, SliderFilledTrack, SliderThumb, Button, Text } from '@chakra-ui/react';
+import { Flex, Slider, SliderTrack, SliderFilledTrack, SliderThumb, Button, Text } from '@chakra-ui/react';
 
 const Slide = () => {
   const [sliderValue, setSliderValue] = useState(50); // Initial slider value
@@ -16,7 +16,7 @@ const Slide = () => {
         defaultValue={sliderValue}
         value={sliderValue}
         onChange={(value) => setSliderValue(value)}
-        isReadOnly={isReadOnly}
+        // isReadOnly={isReadOnly}
         w="200px"
       >
         <SliderTrack>

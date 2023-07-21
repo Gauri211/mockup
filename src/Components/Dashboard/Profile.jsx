@@ -1,4 +1,4 @@
-import { Avatar, Box, Button, Divider, Flex, Heading, Select, Text } from '@chakra-ui/react'
+import { Avatar, Box, Divider, Flex, Heading, Select, Text } from '@chakra-ui/react'
 import React from 'react'
 
 const Profile = () => {
@@ -25,7 +25,7 @@ const Profile = () => {
             <Heading mb='3%'size={'md'}>$19,892</Heading>
             <Text fontSize={'16px'} color={'gray.400'} fontWeight={500}>Total Interest</Text>
           </Box>
-          <Box m='10% 45% 10% 0%' bgColor={'#3f00ff'} p='5% 10% 5% 12%' borderRadius={'15px'} >
+          <Box m='10% 45% 10% 0%' bgColor={'#3f00ff'} p='5% 8% 5% 12%' borderRadius={'15px'} >
             <Select placeholder='I want to' variant={'unstyled'} border={'1px solid #3f00ff'} color={'white'}fontWeight={500} cursor={'pointer'}></Select>
           </Box>
         </Box>

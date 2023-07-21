@@ -3,7 +3,7 @@ import React from 'react'
 import Slide from './Slide'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 
-const Right = () => {
+const Retirement = () => {
   return (
     <Box p='10% 10%'>
         <Box bgColor={'gray.50'} p='10%'>
@@ -40,4 +40,4 @@ const Right = () => {
   )
 }
 
-export default Right
+export default Retirement

@@ -1,7 +1,7 @@
 import { Box, CircularProgress, CircularProgressLabel, Divider, Flex, GridItem, SimpleGrid, Text, Heading, Select } from '@chakra-ui/react'
 import React from 'react'
 
-const LowerPart = () => {
+const Achievements = () => {
   return (
     <Box>
         <Text fontSize={'24px'} fontWeight={500}>How do I compare to my peers?</Text>
@@ -41,19 +41,19 @@ const LowerPart = () => {
             <Box>
             <SimpleGrid columns={3} columnGap={5}>
                 <GridItem colSpan={1}>
-                    <CircularProgress value={78} color='green.400' size="120px">
+                    <CircularProgress value={78} color='green.400' size="100px">
                         <CircularProgressLabel>78%</CircularProgressLabel>
                     </CircularProgress>
                     <Text align={'center'}>Average</Text>
                 </GridItem>
                 <GridItem colSpan={1}>
-                    <CircularProgress value={95} color='green.400' size="120px">
+                    <CircularProgress value={95} color='green.400' size="100px">
                         <CircularProgressLabel>95%</CircularProgressLabel>
                     </CircularProgress>
                     <Text align={'center'}>Average</Text>
                 </GridItem>
                 <GridItem colSpan={1}>
-                    <CircularProgress value={59} color='green.400' size="120px">
+                    <CircularProgress value={59} color='green.400' size="100px">
                         <CircularProgressLabel>59%</CircularProgressLabel>
                     </CircularProgress>
                     <Text align={'center'}>Average</Text>
@@ -65,4 +65,4 @@ const LowerPart = () => {
   )
 }
 
-export default LowerPart
+export default Achievements
